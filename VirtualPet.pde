@@ -5,7 +5,7 @@ void setup(){
 }
 void draw(){
 noStroke();
-//plate?
+//plate
 fill(255);
 ellipse(200,200,230-20,230);
 
@@ -29,10 +29,6 @@ ellipse(200,225,55,50);//snout
 fill(0);
 ellipse(200,210,15,10);
 
-//center reference
-//fill(255);
-//ellipse(200,200,5,5);
-
 //eyes
 stroke(0);
 strokeWeight(5);
@@ -44,4 +40,3 @@ strokeWeight(3);
 line(200,210,200,225+0.5);//down
 line(200,225+0.5,200-7,225+10);//left
 line(200,225+0.5,200+7,225+10);//right
-
