@@ -7,7 +7,7 @@ void draw(){
 noStroke();
 //plate
 fill(255);
-ellipse(200,200,230-20,230);
+ellipse(200,200,230,230);
 
 //ears
 fill(126,77,17);
